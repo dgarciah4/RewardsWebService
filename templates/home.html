@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Points System</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../static/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="#">
+  </head>
+  <body>
+    {% extends "base.html" %}
+
+    {% block content %}
+
+    <div class="d-flex justify-content-around">
+      <h1 class="display-1"> <i> <b>Points System Tool</b> </i> </h1>
+    </div>
+    <div class="d-flex justify-content-around">
+      <h2 class="display-4">Add a Payer</h2>
+    </div>
+    <br>
+    <div class="d-flex justify-content-around">
+      <h3><a href="{{url_for('payout')}}"> Enter Payer Information</a></h3>
+    </div>
+    <br>
+    <div class="d-flex justify-content-around">
+      <h3><a href="{{url_for('spend')}}"> Spend Points</a></h3>
+    </div>
+
+
+
+  {% endblock %}
+  </body>
+</html>

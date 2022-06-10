@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Points System</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../static/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<link rel="shortcut icon" href="#">
+
+  </head>
+
+  <body style="background-color:white;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class=" navbar-brand" href="{{url_for('home')}}">Home Page</a>
+      <a class=" navbar-brand" href="{{url_for('points')}}">Point Records</a>
+
+    </nav>
+    {% block content %}
+
+    {% endblock %}
+
+  </body>

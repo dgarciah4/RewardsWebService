@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Points System</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../static/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<link rel="shortcut icon" href="#">
+
+</head>
+
+{% extends "base.html" %}
+{% block content %}
+<body class="overflow-scroll">
+
+
+  <br><br>
+  <h1><b>List of Transactions</b></h1>
+  <h2>________________________________________________</h2>
+  <br>
+  <div class="d-flex justify-content-center">
+
+  <table class="table table-striped table-dark" border="1" style="width: 80%; margin-top: 20px; text-align: center;">
+    <thead>
+      <tr>
+        <th scope="col">Transaction Date</th>
+        <th scope="col">Points Amount</th>
+        <th scope="col">Payer</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      {% for user in all_points %}
+      <tr>
+          <td>{{user.timestamp}}</td>
+          <td>{{user.points}}</td>
+          <td>{{user.payer}}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+
+  </table>
+  <br><br><br><br>
+</div>
+
+{% endblock %}
+  </body>
+</html>
