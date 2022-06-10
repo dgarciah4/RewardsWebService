@@ -10,6 +10,7 @@
     3.) accUser: Accounting database used to track balances of each payer after spending
 
 # Programming Languages: Python, Javascript, HTML/CSS
+    * Bootstrap was used for styling purposes and source files are included in repository
 # Environment: Flask
 # Technologies Used for Development: Atom, Visual Code, Git, DB Browser
 
