@@ -4,13 +4,13 @@
 
 # Database: SQLite
 
-# Front-End Tools
 ## Tables 
     1.) user: Contains timestamp, payer and points data for each transaction
     2.) amounts: Reference database used to track total amount of points
     3.) accUser: Accounting database used to track balances of each payer after spending
 
 # Programming Languages: Python, Javascript, HTML/CSS
+    * Bootstrap was used for styling purposes and source files are included in repository
 # Environment: Flask
 # Technologies Used for Development: Atom, Visual Code, Git, DB Browser
 
@@ -39,10 +39,10 @@
 - CTRL + C
 
 # Screenshots
-![1](capture2.png)
-![2](capture3.png)
-![3](capture4.png)
-![4](capture5.png)
-![6](capture6.png)
-![7](capture1.png)
+![1](capture2.PNG)
+![2](capture3.PNG)
+![3](capture4.PNG)
+![4](capture5.PNG)
+![6](capture6.PNG)
+![7](capture1.PNG)
 
