@@ -39,10 +39,10 @@
 - CTRL + C
 
 # Screenshots
-![1](capture2.png)
-![2](capture3.png)
-![3](capture4.png)
-![4](capture5.png)
-![6](capture6.png)
-![7](capture1.png)
+![1](capture2.PNG)
+![2](capture3.PNG)
+![3](capture4.PNG)
+![4](capture5.PNG)
+![6](capture6.PNG)
+![7](capture1.PNG)
 
