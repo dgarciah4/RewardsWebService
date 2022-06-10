@@ -4,7 +4,6 @@
 
 # Database: SQLite
 
-# Front-End Tools
 ## Tables 
     1.) user: Contains timestamp, payer and points data for each transaction
     2.) amounts: Reference database used to track total amount of points
